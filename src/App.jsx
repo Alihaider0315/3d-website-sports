@@ -1,12 +1,7 @@
-import React from 'react'
+import Spline from '@splinetool/react-spline';
 
-
-const App = () => {
+export default function App() {
   return (
-    <div>
-    <iframe src='https://my.spline.design/elegantbeautyofdarkaesthetics-9a666456b68a91e14dab73263ce826d3/' frameborder='0' width='100%' height='1000px'></iframe>
-    </div>
-  )
+    <Spline scene="https://prod.spline.design/G2ewWDRXPOo1lqcX/scene.splinecode" />
+  );
 }
-
-export default App
